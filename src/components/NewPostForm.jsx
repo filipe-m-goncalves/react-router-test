@@ -3,7 +3,7 @@ import classes from "./NewPostForm.module.css";
 
 function NewPostForm({ onCancel, submitting }) {
   return (
-    <Form className={classes.Form} method="post" action="/blog/new">
+    <Form className={classes.form} method="post" action="/blog/new">
       <fieldset>
         <label htmlFor="title">Title</label>
         <input id="title" type="text" name="title" required minLength={5} />
@@ -29,4 +29,3 @@ function NewPostForm({ onCancel, submitting }) {
 }
 
 export default NewPostForm;
-

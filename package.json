@@ -1,9 +1,9 @@
 {
   "name": "react-router-64",
-  "private": true,
-  "version": "0.0.0",
+  "private": false,
+  "version": "0.0.1",
   "type": "module",
-  "homepage": "https://filipe-m-goncalves.github.io/react-router-test",
+  "homepage": "http://filipe-m-goncalves.github.io/react-router-test",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
