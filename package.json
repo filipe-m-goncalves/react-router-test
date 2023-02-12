@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://filipe-m-goncalves/react-router",
+  "homepage": "https://filipe-m-goncalves.github.io/react-router-test",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
