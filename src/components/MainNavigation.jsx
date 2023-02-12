@@ -1,6 +1,6 @@
-import { NavLink } from 'react-router-dom';
+import { NavLink } from "react-router-dom";
 
-import classes from './MainNavigation.module.css';
+import classes from "./MainNavigation.module.css";
 
 function MainNavigation() {
   return (
@@ -9,7 +9,7 @@ function MainNavigation() {
         <ul>
           <li>
             <NavLink
-              to="/"
+              to="/react-router-test"
               className={({ isActive }) =>
                 isActive ? classes.active : undefined
               }
@@ -20,7 +20,7 @@ function MainNavigation() {
           </li>
           <li>
             <NavLink
-              to="/blog"
+              to="/react-router-test/blog"
               className={({ isActive }) =>
                 isActive ? classes.active : undefined
               }

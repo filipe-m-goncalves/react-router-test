@@ -14,7 +14,7 @@ function NewPostPage() {
   const data = useActionData();
 
   function cancelHandler() {
-    navigate("/blog");
+    navigate("/react-router-test/blog");
   }
   return (
     <>
@@ -43,5 +43,5 @@ export const action = async ({ request }) => {
     throw err;
   }
 
-  return redirect("/blog");
+  return redirect("/react-router-test/blog");
 };
