@@ -15,7 +15,11 @@ import ErrorMessage from "./components/ErrorMessage";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<RootLayout />} errorElement={<ErrorMessage />}>
+    <Route
+      path="/react-router-test"
+      element={<RootLayout />}
+      errorElement={<ErrorMessage />}
+    >
       <Route index element={<WelcomePage />} />
       <Route path="/blog" element={<BlogLayout />}>
         <Route index element={<BlogPostsPage />} loader={loaderBlogPosts} />
